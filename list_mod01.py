@@ -7,4 +7,9 @@ def remove_odd(lst):
     Returns:
         list: list without odd numbers.
     '''
-    return
+    a = []
+    for i in lst:
+        if i%2==0:
+            a.append(i)
+    return a
+print(remove_odd([1,2,3,4,5,6,5,5,5,5,5,5,4,4,4,4]))
